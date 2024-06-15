@@ -41,16 +41,16 @@ body {
 }
 
 .main-text {
-    font-size: 7.84em; /* 40% bigger than previous 5.6em */
-    font-weight: 110; /* Increase font weight by 5% from 105 */
+    font-size: 5.88em; /* 25% smaller than 7.84em */
+    font-weight: 137.5; /* 25% bolder than 110 */
     margin: 0.5em 0;
 }
 
 .sub-text {
     font-size: 1.2em;
     color: #000; /* Ensure it is black */
-    margin-top: -0.25em; /* Move closer to main text, 50% closer than previous -0.5em */
-    font-weight: 300; /* Ensure it uses the same font weight */
+    margin-top: 50px; /* Move 50px below "Human." */
+    font-weight: 330; /* 10% bolder than 300 */
 }
 
 .image-container {
@@ -104,12 +104,13 @@ body {
     }
 
     .main-text {
-        font-size: 4.9em; /* Adjusted to be 40% bigger than the original scaled size */
+        font-size: 3.68em; /* Adjusted to be 25% smaller than 4.9em */
     }
 
     .sub-text {
         font-size: 1em;
-        margin-top: -0.15em; /* Adjusted for smaller screen */
+        margin-top: 50px; /* Move 50px below "Human." */
+        font-weight: 330; /* 10% bolder than 300 */
     }
 
     .image-container img {
