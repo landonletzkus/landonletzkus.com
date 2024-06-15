@@ -78,16 +78,20 @@ body {
 .social-icon {
     background-color: #7417f8; /* Updated purple background */
     color: #ffffff; /* White icon color */
-    font-size: 1.8em; /* 10% smaller than 2em */
-    width: 45px; /* 10% smaller than 50px */
-    height: 45px; /* 10% smaller than 50px */
+    font-size: 1.6em; /* 20% smaller than 2em */
+    width: 40px; /* 20% smaller than 50px */
+    height: 40px; /* 20% smaller than 50px */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 9px; /* 10% closer together than 10px */
     text-decoration: none;
     transition: background-color 0.3s;
+}
+
+.social-icon i {
+    font-size: 1.6em; /* Adjust icon size to be proportional to the new circle size */
 }
 
 .social-icon:hover {
@@ -116,9 +120,13 @@ body {
     }
 
     .social-icon {
-        font-size: 1.35em; /* 10% smaller than 1.5em */
-        width: 36px; /* 10% smaller than 40px */
-        height: 36px; /* 10% smaller than 40px */
-        margin: 0 5px;
+        font-size: 1.28em; /* 20% smaller than 1.6em */
+        width: 32px; /* 20% smaller than 40px */
+        height: 32px; /* 20% smaller than 40px */
+        margin: 0 8px; /* Adjust margin accordingly */
+    }
+
+    .social-icon i {
+        font-size: 1.28em; /* Adjust icon size to be proportional to the new circle size */
     }
 }
