@@ -25,19 +25,20 @@ body {
     font-size: 1.8em; /* 20% bigger than original 1.5em */
     font-weight: 300; /* 30% thinner in font weight from 400 */
     text-transform: uppercase;
+    letter-spacing: 0.02em; /* Increase kerning by 2% */
 }
 
 .main-text {
     font-size: 7.84em; /* 40% bigger than previous 5.6em */
-    font-weight: 100; /* Thinner */
+    font-weight: 105; /* Increase font weight by 5% from 100 */
     margin: 0.5em 0;
 }
 
 .sub-text {
     font-size: 1.2em;
-    color: #666;
+    color: #000; /* Ensure it is black */
     margin-top: -0.5em; /* Move closer to main text */
-    font-weight: 300; /* Ensure it is not bold */
+    font-weight: 300; /* Ensure it uses the same font weight */
 }
 
 .image-container {
