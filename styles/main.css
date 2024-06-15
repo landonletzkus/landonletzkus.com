@@ -71,16 +71,16 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 25px; /* Same distance from the bottom as "Landon Letzkus" is from the top */
+    bottom: 10px; /* Place at the very bottom of the page */
     width: 100%;
 }
 
 .social-icon {
     background-color: #7417f8; /* Updated purple background */
     color: #ffffff; /* White icon color */
-    font-size: 2em;
-    width: 50px;
-    height: 50px;
+    font-size: 1.8em; /* 10% smaller than 2em */
+    width: 45px; /* 10% smaller than 50px */
+    height: 45px; /* 10% smaller than 50px */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,9 +116,9 @@ body {
     }
 
     .social-icon {
-        font-size: 1.5em;
-        width: 40px;
-        height: 40px;
+        font-size: 1.35em; /* 10% smaller than 1.5em */
+        width: 36px; /* 10% smaller than 40px */
+        height: 36px; /* 10% smaller than 40px */
         margin: 0 5px;
     }
 }
