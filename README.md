@@ -1,6 +1,6 @@
-# Landon Letzkus's Website
+# Landon's Website!
 
-This is the source code for my personal website hosted on GitHub Pages.
+This is the source code for my personal website hosted here on GitHub Pages. It's very simple and mostly useless, but it sure beats paying squarespace $180/year. 
 
 ## Viewing the Website
 
