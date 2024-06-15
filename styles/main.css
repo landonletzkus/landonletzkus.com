@@ -31,7 +31,7 @@ body {
 
 .top-text {
     position: absolute;
-    top: 25px; /* 5% farther from the top margin */
+    top: 25px; /* 25px from the top */
     width: 100%;
     text-align: center;
     font-size: 1.8em; /* 20% bigger than original 1.5em */
@@ -70,11 +70,13 @@ body {
 .social-media-icons {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    position: absolute;
+    bottom: 25px; /* Same distance from the bottom as "Landon Letzkus" is from the top */
+    width: 100%;
 }
 
 .social-icon {
-    background-color: #800080; /* Purple background */
+    background-color: #7417f8; /* Updated purple background */
     color: #ffffff; /* White icon color */
     font-size: 2em;
     width: 50px;
