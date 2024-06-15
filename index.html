@@ -15,7 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f4f4f4;
+            background-color: #ffffff; /* Changed to pure white */
             position: relative;
             overflow: hidden;
             flex-direction: column;
@@ -32,12 +32,13 @@
             top: 20px;
             width: 100%;
             text-align: center;
-            font-size: 1.5em;
+            font-size: 1.8em; /* 20% bigger than original 1.5em */
             font-weight: 400;
+            text-transform: uppercase;
         }
 
         .main-text {
-            font-size: 4em;
+            font-size: 5.6em; /* 40% bigger than original 4em */
             font-weight: 100;
             margin: 0.5em 0;
         }
@@ -45,6 +46,8 @@
         .sub-text {
             font-size: 1.2em;
             color: #666;
+            margin-top: -0.5em; /* Move closer to main text */
+            font-weight: 400; /* Ensure it is not bold */
         }
 
         .image-container {
@@ -60,15 +63,16 @@
 
         @media (max-width: 600px) {
             .top-text {
-                font-size: 1.2em;
+                font-size: 1.44em; /* Adjusted to be 20% bigger than the original scaled size */
             }
 
             .main-text {
-                font-size: 2.5em;
+                font-size: 3.5em; /* Adjusted to be 40% bigger than the original scaled size */
             }
 
             .sub-text {
                 font-size: 1em;
+                margin-top: -0.3em; /* Adjusted for smaller screen */
             }
 
             .image-container img {
