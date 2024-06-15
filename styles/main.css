@@ -1,1 +1,79 @@
+@font-face {
+    font-family: 'FuturaRound';
+    src: url('../fonts/Futura.woff') format('woff');
+    font-weight: 100 700; /* Adjust based on available weights */
+    font-style: normal;
+}
 
+body {
+    margin: 0;
+    font-family: 'FuturaRound', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Pure white background */
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.top-text {
+    position: absolute;
+    top: 25px; /* 5% farther from the top margin */
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em; /* 20% bigger than original 1.5em */
+    font-weight: 280; /* 30% thinner in font weight from 400 */
+    text-transform: uppercase;
+}
+
+.main-text {
+    font-size: 7.84em; /* 40% bigger than previous 5.6em */
+    font-weight: 100; /* 75% thinner */
+    margin: 0.5em 0;
+}
+
+.sub-text {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: -0.5em; /* Move closer to main text */
+    font-weight: 400; /* Ensure it is not bold */
+}
+
+.image-container {
+    position: absolute;
+    bottom: 0;
+    right: 50px; /* 50 pixels from the right edge */
+}
+
+.image-container img {
+    width: 544px; /* 15% smaller than the original 640px */
+    height: auto;
+    display: block; /* Ensures the image behaves as a block element */
+}
+
+@media (max-width: 600px) {
+    .top-text {
+        font-size: 1.44em; /* Adjusted to be 20% bigger than the original scaled size */
+    }
+
+    .main-text {
+        font-size: 4.9em; /* Adjusted to be 40% bigger than the original scaled size */
+    }
+
+    .sub-text {
+        font-size: 1em;
+        margin-top: -0.3em; /* Adjusted for smaller screen */
+    }
+
+    .image-container img {
+        width: 272px; /* 15% smaller than the original 320px */
+    }
+}
