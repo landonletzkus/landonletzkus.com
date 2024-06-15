@@ -78,7 +78,7 @@ body {
 .social-icon {
     background-color: #7417f8; /* Updated purple background */
     color: #ffffff; /* White icon color */
-    font-size: 1.6em; /* 20% smaller than 2em */
+    font-size: 1.6em; /* Adjust size if needed */
     width: 40px; /* 20% smaller than 50px */
     height: 40px; /* 20% smaller than 50px */
     display: flex;
@@ -91,7 +91,7 @@ body {
 }
 
 .social-icon i {
-    font-size: 1.6em; /* Adjust icon size to be proportional to the new circle size */
+    font-size: 1em; /* Adjust icon size to fit neatly within the circle */
 }
 
 .social-icon:hover {
@@ -121,13 +121,13 @@ body {
     }
 
     .social-icon {
-        font-size: 1.28em; /* 20% smaller than 1.6em */
+        font-size: 1.28em; /* Adjust size if needed */
         width: 32px; /* 20% smaller than 40px */
         height: 32px; /* 20% smaller than 40px */
         margin: 0 8px; /* Adjust margin accordingly */
     }
 
     .social-icon i {
-        font-size: 1.28em; /* Adjust icon size to be proportional to the new circle size */
+        font-size: 0.8em; /* Adjust icon size to fit neatly within the circle */
     }
 }
