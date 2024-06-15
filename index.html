@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Landon Letzkus</title>
     <link rel="icon" type="image/x-icon" href="images/InfinifaceFavicon.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap">
     <style>
         /* Inline CSS */
         body {
@@ -18,15 +18,38 @@
             background-color: #f4f4f4;
             position: relative;
             overflow: hidden;
+            flex-direction: column;
         }
 
         .container {
             text-align: center;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .top-text {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 400;
+        }
+
+        .main-text {
+            font-size: 4em;
+            font-weight: 100;
+            margin: 0.5em 0;
+        }
+
+        .sub-text {
+            font-size: 1.2em;
+            color: #666;
         }
 
         .image-container {
             position: absolute;
-            bottom: 20px;
+            bottom: 0;
             right: 20px;
         }
 
@@ -35,22 +58,16 @@
             height: auto;
         }
 
-        header h1 {
-            font-size: 2.5em;
-            margin: 0.5em 0;
-        }
-
-        header p {
-            font-size: 1.2em;
-            color: #666;
-        }
-
         @media (max-width: 600px) {
-            header h1 {
-                font-size: 2em;
+            .top-text {
+                font-size: 1.2em;
             }
 
-            header p {
+            .main-text {
+                font-size: 2.5em;
+            }
+
+            .sub-text {
                 font-size: 1em;
             }
 
@@ -61,11 +78,10 @@
     </style>
 </head>
 <body>
+    <div class="top-text">Landon Letzkus</div>
     <div class="container">
-        <header>
-            <h1>Landon Letzkus</h1>
-            <p>Washington DC based human</p>
-        </header>
+        <div class="main-text">Human.</div>
+        <div class="sub-text">Brooklyn, NY</div>
     </div>
     <div class="image-container">
         <img src="images/InfinifaceMain.png" alt="Landon Letzkus Main Image">
