@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('../fonts/Poppins.woff2') format('woff2'),
+         url('../fonts/Poppins.woff') format('woff');
+    font-weight: 100 700;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -9,6 +17,18 @@ body {
     position: relative;
     overflow: hidden;
     flex-direction: column;
+    animation: fadeIn 0.5s ease-in-out; /* Add fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        background-color: #ffffff;
+    }
+    to {
+        opacity: 1;
+        background-color: #ffffff;
+    }
 }
 
 .container {
