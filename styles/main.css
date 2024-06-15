@@ -25,19 +25,19 @@ body {
     font-size: 1.8em; /* 20% bigger than original 1.5em */
     font-weight: 300; /* 30% thinner in font weight from 400 */
     text-transform: uppercase;
-    letter-spacing: 0.02em; /* Increase kerning by 2% */
+    letter-spacing: 0.05em; /* Increase kerning by 5% */
 }
 
 .main-text {
     font-size: 7.84em; /* 40% bigger than previous 5.6em */
-    font-weight: 105; /* Increase font weight by 5% from 100 */
+    font-weight: 110; /* Increase font weight by 5% from 105 */
     margin: 0.5em 0;
 }
 
 .sub-text {
     font-size: 1.2em;
     color: #000; /* Ensure it is black */
-    margin-top: -0.5em; /* Move closer to main text */
+    margin-top: -0.25em; /* Move closer to main text, 50% closer than previous -0.5em */
     font-weight: 300; /* Ensure it uses the same font weight */
 }
 
@@ -64,7 +64,7 @@ body {
 
     .sub-text {
         font-size: 1em;
-        margin-top: -0.3em; /* Adjusted for smaller screen */
+        margin-top: -0.15em; /* Adjusted for smaller screen */
     }
 
     .image-container img {
