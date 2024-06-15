@@ -1,10 +1,10 @@
-# Landon's Website!
+# It's a website!
 
 This is the source code for my personal website hosted here on GitHub Pages. It's very simple and mostly useless, but it sure beats paying squarespace $180/year. 
 
 ## Viewing the Website
 
-You can view the website at [www.landonletzkus.com](http://www.landonletzkus.com)
+You can view the site at: [www.landonletzkus.com](http://www.landonletzkus.com)
 
 ## Contents
 
