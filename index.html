@@ -16,13 +16,21 @@
             align-items: center;
             height: 100vh;
             background-color: #f4f4f4;
+            position: relative;
+            overflow: hidden;
         }
 
         .container {
             text-align: center;
         }
 
-        header img {
+        .image-container {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .image-container img {
             width: 100px;
             height: auto;
         }
@@ -36,22 +44,31 @@
             font-size: 1.2em;
             color: #666;
         }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            .image-container img {
+                width: 80px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="images/InfinifaceFavicon.png" alt="Landon Letzkus Logo">
             <h1>Landon Letzkus</h1>
             <p>Washington DC based human</p>
         </header>
-        <main>
-            <!-- Add any additional content here -->
-        </main>
     </div>
-
-    <script>
-        // Inline JavaScript if needed
-    </script>
+    <div class="image-container">
+        <img src="images/InfinifaceFavicon.png" alt="Landon Letzkus Logo">
+    </div>
 </body>
 </html>
